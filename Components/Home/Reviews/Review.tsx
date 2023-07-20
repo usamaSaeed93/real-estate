@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const Review: React.FC = () => {
   return (
-    <div className="max-w-[1200px] m-auto ">
+    <div className="max-w-[1200px] m-auto mt-10">
       <p className="max-w-[570px] text-black font-manrope text-[40px] font-semibold leading-normal pb-12 m-auto md:m-0 pl-4">
         Loved by businesses, and individuals across the globe.
       </p>

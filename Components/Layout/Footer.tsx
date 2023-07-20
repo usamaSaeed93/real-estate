@@ -15,7 +15,7 @@ const Footer = () => {
   return (
     <>
       <div className="lg:h-96 h-max bg-layoutBlue justify-center pb-14 items-center mt-10 ">
-        <div className="max-w-[1200px] flex-col lg:flex-row flex items-center lg:items-start justify-center lg:justify-evenly pt-14 gap-y-10 m-auto">
+        <div className="max-w-[1200px] flex-col sm:flex-row flex items-center lg:items-start justify-between px-[10%] lg:justify-evenly pt-14 gap-y-10 gap-x-10 m-auto">
           <div className="flex flex-col gap-10">
             <Image src={logo} alt="logo" />
             <div className="flex flex-col  gap-9">

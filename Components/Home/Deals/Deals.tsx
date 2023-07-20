@@ -16,8 +16,8 @@ const Deals = () => {
     setSelectedItem(item);
   };
   return (
-    <div className="max-w-[1200px] m-auto">
-      <div className="flex flex-row justify-between items-center">
+    <div className="max-w-[1200px] m-auto ">
+      <div className="flex flex-row justify-between items-center mx-3">
         <p className="text-black font-Manrope font-semibold text-2xl sm:text-4xl px-3 py-10">
           Best Real Estate Deals
         </p>
@@ -30,7 +30,7 @@ const Deals = () => {
         industry with tech.
       </p>
       <div>
-        <ul className="gap-2 flex flex-row mb-11 px-2">
+        <ul className="gap-2 flex flex-row mb-11 px-3">
           {list.map((l) => {
             return (
               <ul

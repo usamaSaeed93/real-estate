@@ -1,50 +1,26 @@
-.carousel-wrapper {
+.carousel-container {
     position: relative;
-    max-width: 100%;
-    overflow: hidden;
+    width: 100%;
   }
   
   .carousel {
     display: flex;
-    transition: transform 0.3s ease;
+    overflow: hidden;
   }
   
-  .carousel-slide {
-    flex: 0 0 calc(100% / 3); /* Set width to 33.33% to show three images at once */
-    height: 200px; /* Customize the carousel height */
+  .carousel img {
+    width: 285px;
+    height: 300px;
   }
   
-  .carousel-slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensure images fill the slide container */
-  }
-  
-  .carousel-slide:not(.active) {
-    display: none;
-  }
-  
-  .carousel-controls {
+  .carousel-buttons {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     margin-top: 10px;
   }
   
-  .carousel-controls button {
-    width: 120px;
-    height: 40px;
-    margin: 0 8px;
-    background-color: #888;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-    color: #fff;
-    transition: background-color 0.3s;
-  }
-  
-  .carousel-controls button:hover {
-    background-color: #333;
+  .carousel-buttons button {
+    margin: 0 5px;
   }
   

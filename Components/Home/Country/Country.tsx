@@ -13,11 +13,11 @@ const Country: React.FC = () => {
     setSelectedItem(item);
   };
   return (
-    <div className="max-w-[1200px] w-full m-auto">
+    <div className="max-w-[1200px] w-full m-auto pl-4">
       <p className="text-black font-Manrope text-3xl font-semibold leading-10 mb-20 md:mt-44  mt-20 ">
         We’re already around americas.
       </p>
-      <div className="flex flex-col md:flex-row gap-28">
+      <div className="flex flex-col md:flex-row gap-0 md:gap-28">
         <ul className="gap-5 flex flex-col mb-11 px-2">
           {list.map((l) => {
             return (

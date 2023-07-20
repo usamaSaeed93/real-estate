@@ -11,7 +11,9 @@ module.exports = {
     building:"url('/Images/png/banner.png')"
       },
      fontFamily:{
-      Manrope:['Manrope', 'sans-serif']
+      Manrope:['Manrope', 'sans-serif'],
+      Inter:['Inter','sans-serif'],
+      inter:['Inter','sans-serif']
      }
     },
   },
