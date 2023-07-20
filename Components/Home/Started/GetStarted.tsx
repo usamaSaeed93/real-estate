@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import room from "../../../public/Images/png/room.png";
+
+
 const GetStarted: React.FC = () => {
   return (
     <div className="m-auto w-full flex justify-center items-center mb-10">
@@ -22,8 +24,8 @@ const GetStarted: React.FC = () => {
             Crafted with care by the authors of Oshine, a best seller with over
             25K customers. Take complete control of your website.
           </p>
-      <button className="font-Inter font-medium text-xs sm:text-base text-white max-w-[200px] w-full h-14 bg-[#F77E53] mt-8 rounded-md px-2">
-          Get Started
+          <button className="font-Inter font-medium text-xs sm:text-base text-white max-w-[200px] w-full h-14 bg-[#F77E53] mt-8 rounded-md px-2">
+            Get Started
           </button>
         </div>
       </div>

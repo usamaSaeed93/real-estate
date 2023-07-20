@@ -1,7 +1,8 @@
 import SearchIcon from "@mui/icons-material/Search";
+
+
 const Search: React.FC = () => {
   return (
-
     <div className="max-w-[1200px] w-full h-24 flex flex-col md:flex-row justify-evenly border-r border-solid border-white shadow-[0px_25px_50px_0px_rgba(0, 0, 0, 0.05)] items-center m-auto bg-white shadow-lg rounded-xl">
       <div className="flex flex-col border-r border-solid border-black border-opacity-25 justify-center items-start ">
         <p className="text-gray-700 font-Inter text-xs font-semibold leading-normal">
@@ -39,7 +40,7 @@ const Search: React.FC = () => {
         </p>
       </div>
       <div>
-        <button className="max-w-56 w-full h-14 flex flex-row justify-center items-center bg-[#F85A47] font-white font-normal text-base text-white rounded-md">
+        <button className="max-w-56 px-4 w-full h-14 flex flex-row justify-center items-center bg-[#F85A47] font-white font-normal text-base text-white rounded-md">
           564 property found
           <SearchIcon
             sx={{ color: "#fff", fontSize: "26px", paddingLeft: "8px" }}

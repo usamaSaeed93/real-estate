@@ -1,6 +1,8 @@
 import icon from "../../../public/Images/svg/Icon.svg";
 import icon2 from "../../../public/Images/svg/Icon2.svg";
 import Image from "next/image";
+
+
 const Working: React.FC = () => {
   return (
     <div className="m-auto mt-32">

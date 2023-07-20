@@ -1,5 +1,7 @@
 import room from "../../../public/Images/png/room.png";
 import Image from "next/image";
+
+
 const Offer: React.FC = () => {
   return (
     <div className="m-auto w-full flex justify-center items-center">
@@ -74,7 +76,7 @@ const Offer: React.FC = () => {
             </div>
           </div>
           <button className="font-Inter font-medium text-xs sm:text-base text-white max-w-[410px] h-14 bg-[#F85A47] mt-8 rounded-md px-2">
-          YES! I WANT BOOK “OFFICE PACKAGE”
+            YES! I WANT BOOK “OFFICE PACKAGE”
           </button>
         </div>
       </div>
